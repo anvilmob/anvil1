@@ -1,1 +1,18 @@
-one
+import random
+
+def random_program():
+    num1 = random.randint(1, 10)
+    num2 = random.randint(1, 10)
+
+    print("Randomly generated numbers:", num1, "and", num2)
+
+    sum_result = num1 + num2
+    print("Sum of the numbers:", sum_result)
+
+    product_result = num1 * num2
+    print("Product of the numbers:", product_result)
+
+    max_result = max(num1, num2)
+    print("Maximum number:", max_result)
+
+random_program()
